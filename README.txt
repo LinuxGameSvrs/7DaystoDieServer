@@ -38,9 +38,10 @@
 14. Log into the server
 
 15. Run the following commands:
-15a.	git https://github.com/LinuxGameSvrs/7DaystoDieServer
-15b.	chmod +x serverinstall.sh
-15c.	sudo ./serverinstall.sh
+15a.	git clone git://github.com/LinuxGameSvrs/7DaystoDieServer.git
+15b. cd 7DaystoDieServer
+15b.	chmod +x 7DaysServer_Stable.sh
+15c.	sudo ./7DaysServer_Stable.sh
 15d. You will be prompted to accept the user license agreement when installing SteamCMD
 
 16. Edit the serverconfig.xml 
