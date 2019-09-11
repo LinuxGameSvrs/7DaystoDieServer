@@ -33,6 +33,7 @@ sudo ufw allow 26900
 sudo ufw enable
 # Enable the service to start on boot
 sudo systemctl enable 7days.service
+# Take ownership of any files that might have been added as root
+sudo chown $mylogin:$mylogin -R /home/$mylogin
 # Initial startup of steam and 7 Days to Die server install
 /home/$mylogin/steamcmd +login anonymous +force_install_dir /home/$mylogin/server +app_update 294420 -beta latest_experimental-unstable +quit
-sudo chown $mylogin:$mylogin -R /home/$mylogin
