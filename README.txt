@@ -26,8 +26,8 @@
 9d. Choose a password: 		Anything you want
 9e. Confirm your password:	Same as above
 
-10. Skip Openssh Server if you have no need to remotely manage the system
-10a. If enabled, run the command "sudo ufw allow 22" after running the script
+10a. Skip Openssh Server if you have no need to remotely manage the system
+10b. If enabled, run the command "sudo ufw allow 22" after running the script
 
 11. Skip Featured Snaps
 
@@ -37,12 +37,12 @@
 
 14. Log into the server
 
-15. Run the following commands:
-15a.	git clone git://github.com/LinuxGameSvrs/7DaystoDieServer.git
-15b. cd 7DaystoDieServer
-15b.	chmod +x 7DaysServer_Stable.sh
-15c.	sudo ./7DaysServer_Stable.sh
-15d. You will be prompted to accept the user license agreement when installing SteamCMD
+15a. Run the following commands:
+15b.	git clone git://github.com/LinuxGameSvrs/7DaystoDieServer.git
+15c. cd 7DaystoDieServer
+15d.	chmod +x 7DaysServer_Stable.sh
+15e.	sudo ./7DaysServer_Stable.sh
+15f. You will be prompted to accept the user license agreement when installing SteamCMD
 
 16. Edit the serverconfig.xml 
  After running this script, you are going to want to edit the serverconfig.xml file in /home/YOURUSERNAME/server/ directory. 
@@ -59,11 +59,11 @@
  GameDifficulty				value="number between 1 and 5"
  AirDropMarker				value="true"
  
- 17. Reboot the server with the following command:
- 17a.	reboot
+ 17a. Reboot the server with the following command:
+ 17b.	reboot
  
- 18. If you want to shutdown the server, use this command:
- 18a.	sudo shutdown 15
+ 18a. If you want to shutdown the server, use this command:
+ 18b.	sudo shutdown 15
  
  19. If you want this server to be available to the public, you must forward port 26900 from your router to the server IP address in your local network
  
