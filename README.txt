@@ -40,7 +40,7 @@
 15a. Run the following commands:
 15b. git clone git://github.com/LinuxGameSvrs/7DaystoDieServer.git
 15c. cd 7DaystoDieServer
-15d. chmod +x 7DaysServer_Stable.sh
+15d. sudo chmod +x 7DaysServer_Stable.sh     or    sudo chmod +x 7DaysServer_LatestExperimental.sh
 15e. sudo ./7DaysServer_Stable.sh
 15f. You will be prompted to accept the user license agreement when installing SteamCMD
 
